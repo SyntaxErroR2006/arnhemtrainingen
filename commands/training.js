@@ -15,7 +15,7 @@ module.exports.run = async (client, message, args) => {
             .setColor("#55c260")
             .setDescription(`Je maakt een training aan door het volgende te doen: \n\n !training <DIENSTNUMMER> ${seperator} <TYPE> ${seperator} <2DE-DOCENT> ${seperator} <DATUM> ${seperator} <TIJD> ${seperator} <OPMERKINGEN> ${seperator} <KANAAL (geen tag)> \n\n De dienstnummers: \n\n 1. Politie \n 2. Ambulance \n 3. Brandweer \n 4. Rijkswaterstaat \n 5. Koninklijke Marechaussee \n 6. Dienst Speciale Interventies (DSI) \n 7. Beveiliging \n 8. Rijexamen `);
 
-        return message.channel.send(embed).then(m => m.delete(10));
+        return message.channel.send(embed).then(m.delete(10));
 
     }
 
