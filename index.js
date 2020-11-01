@@ -34,7 +34,7 @@ fs.readdir("./commands/", (err, files) => {
 
 
 
-client.login(process.env.token);
+client.login(botConfig.token);
 
 client.on("ready", async () => {
 
