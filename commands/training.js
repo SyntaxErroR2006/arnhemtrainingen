@@ -202,7 +202,7 @@ module.exports.run = async (client, message, args) => {
                 { name: "Tijd", value: `${options.Tijd}` },
                 { name: "Opmerkingen", value: `${options.Opmerkingen}` }
             )
-            .setThumbnail("https://images-ext-1.discordapp.net/external/qqKUWaaKd_9hiqA3Rl4YcmlrdVLtgOJDHnWIbeddjhw/https/t2.rbxcdn.com/3e17b60c43147fed7f79e61e0adf8f0e")
+            .setThumbnail("https://cdn.discordapp.com/attachments/747728968769339393/772448139310923826/beveiliging.jpg")
 
         var channel = message.member.guild.channels.cache.find(channels => channels.name === options.kanaal);
         if (!channel) return message.reply("Dit kanaal bestaat niet")
@@ -227,7 +227,7 @@ module.exports.run = async (client, message, args) => {
                 { name: "Tijd", value: `${options.Tijd}` },
                 { name: "Opmerkingen", value: `${options.Opmerkingen}` }
             )
-            .setThumbnail("https://images-ext-1.discordapp.net/external/qqKUWaaKd_9hiqA3Rl4YcmlrdVLtgOJDHnWIbeddjhw/https/t2.rbxcdn.com/3e17b60c43147fed7f79e61e0adf8f0e")
+            .setThumbnail("https://cdn.discordapp.com/attachments/747728968769339393/772448293501665310/rijexamen.jpg")
 
         var channel = message.member.guild.channels.cache.find(channels => channels.name === options.kanaal);
         if (!channel) return message.reply("Dit kanaal bestaat niet")
