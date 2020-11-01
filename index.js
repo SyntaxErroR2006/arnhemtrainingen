@@ -39,7 +39,7 @@ client.login(process.env.token);
 client.on("ready", async () => {
 
     console.log(`${client.user.username} is online.`);
-    let activities = ["-training", "Prefix -" ]
+    let activities = ["Arnhem Bots", "-training" ]
     i = 0;
     setInterval(() => {
         client.user.setPresence({
